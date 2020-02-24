@@ -8,6 +8,4 @@ RUN npm install --production
 
 EXPOSE 3000
 
-CMD npm run prod
-
-# docker run -i -p 3000:3000 microservices-example_web
+CMD npm run micro-prod

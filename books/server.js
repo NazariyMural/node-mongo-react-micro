@@ -4,6 +4,5 @@ const mongoose = require("mongoose");
 mongoose.connect(DB_URI);
 
 app.listen(3000, () => {
-  console.log("running on port 3000");
-  console.log("--------------------------");
+  console.log("'Books service' is running on port 3000");
 });

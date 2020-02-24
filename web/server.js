@@ -1,6 +1,7 @@
-const app = require("./src/app");
+const app = require("./express/app");
 
-app.listen(3000, () => {
-  console.log("running on port 3000");
-  console.log("--------------------------");
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => {
+  console.log(`Web service is running on port ${port}`);
 });
